@@ -7,10 +7,12 @@ This project utilizes [Liam Kaufman's](https://github.com/liamks) excellent iTun
 
 [libpytunes](https://github.com/liamks/libpytunes) uses six, and makexlsx.py uses openpyxl; both are expressed in requirements.txt. In a venv (ideally), install the prereqs with 
 ```
-'pip install -r requirements.txt'
+pip install -r requirements.txt
 ```
 ...and then run the parsing/creation with 
-```'python3 makexlsx.py Library.xml'``` 
+```
+python3 makexlsx.py Library.xml
+``` 
 
 This will generate the .xlsx in the same directory as the .xml, presenting a view of the library similar to this:
 ![alt text](https://github.com/kenkl/parseituneslib/blob/aff4ad9002b30c46b9e183ff82051d6bbb7a5a8a/sssample.jpg "spreadsheet sample")
