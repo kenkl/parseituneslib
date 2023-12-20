@@ -13,7 +13,7 @@ This project utilizes [Liam Kaufman's](https://github.com/liamks) excellent iTun
 ```'python3 makexlsx.py Library.xml'``` 
 
 This will generate the .xlsx in the same directory as the .xml, presenting a view of the library similar to this:
-![alt text](https://raw.githubusercontent.com/kenkl/parseituneslib/sssample.jpg "spreadsheet sample")
+![alt text](https://github.com/kenkl/parseituneslib/blob/aff4ad9002b30c46b9e183ff82051d6bbb7a5a8a/sssample.jpg "spreadsheet sample")
 
 If a track is known only from adding it via Apple Music, the date fields are not present, breaking my parsing of the dates, so they're simply marked as 'UNKNOWN' for these purely cloud-hosted tracks. 
 
